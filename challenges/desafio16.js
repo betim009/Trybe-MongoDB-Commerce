@@ -7,7 +7,7 @@ db.produtos.updateOne(
     },
 );
   
-  db.produtos.find(
+db.produtos.find(
     { 
         nome: { $eq: "Big Mac" },
     }, 
